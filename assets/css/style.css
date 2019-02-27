@@ -1,0 +1,132 @@
+* {
+   /* border: 1px red solid;*/
+    box-sizing: border-box;
+}
+
+
+img {
+width: 200px;
+height: 200px;
+margin-right: 10px;
+float: left;
+}
+
+head {
+  position: fixed;
+  top: 0;
+  background-color:#ffffff;
+}
+
+section {
+ background-color:#ffffff;
+ margin: 30px auto 0 auto;
+ width: 960px;
+}
+
+
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+nav {
+  float: right;
+}
+
+.name-block {
+    background-color: #4aaaa5;
+    height: 50px;
+    width: 150px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    left: 18.5%;
+    display: inline-block;
+}
+
+p {
+    color: #777777;
+    font-family: 'arial', 'helvetica neue', helvetica, sans-serif;
+    line-height: 2;
+}
+
+.top {
+    background-color:#ffffff;  
+
+}
+
+body, h1, h3, h4, h5, h6 {
+    color: #4aaaa5;
+    background-image: url(../soft_wallpaper.png);
+}
+
+h2 {
+    border-bottom: 3px solid#cccccc;
+    padding: 15px;
+    font-family: "Georgia", Georgia, 'Times New Roman', Times, serif
+    
+}
+
+.about_heading {
+    padding: 100px;
+    height: 500px;
+}
+
+footer {
+    background-color: #666666;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    border-top: 4px solid #4aaaa5;
+}
+
+.main2 {
+    padding-left: 10px;
+    
+}
+
+a {
+    vertical-align: middle;
+}
+
+textarea {
+    height: 234px;
+    width: 901px;
+}
+
+form {
+    margin-left: 20px;
+}
+
+portfolio-links {
+
+    margin: 30px auto 0 auto;
+}
+
+
+
+
+/*.boxes {
+  width: 120px;
+  height: 70px;
+  }
+
+  .top_box {
+    
+    border: 1px solid green;
+    width: 50%; 
+    float: left;  
+  }
+
+  .bottom_box {
+      
+      float: left; 
+      width: 50%;    
+  }
+*/
